@@ -42,7 +42,7 @@ public class UniqueStrSubsets {
                 num>>=1;
             }
             set.add (str.toString()); 
-            /*We add String objects since we don't StringBuilder's equals checks 
+            /*We add String objects since StringBuilder's equals checks 
               if they are the same object or not and same character sequences 
               appear more than once in results. */
         }
